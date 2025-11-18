@@ -2,8 +2,10 @@
 <manifest>
   <project name="phhusson/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="github" revision="pie" />
   <project name="phhusson/device_phh_treble" path="device/phh/treble" remote="github" revision="android-9.0" />
+  <project name="microrice-x6a/device_xiaomi_x6a" path="device/xiaomi/x6a" remote="github" revision="master" />
   <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master" />
   <project name="phhusson/vendor_vndk-tests" path="vendor/vndk-tests" remote="github" revision="master" />
   <project name="phhusson/vendor_interfaces" path="vendor/interfaces" remote="github" revision="pie" />
   <project name="phhusson/vendor_magisk" path="vendor/magisk" remote="github" revision="master" />
+  <project name="AndyCGYan/treble_patches" path="treble_patches" remote="github" revision="lineage-16.0" />
 </manifest>
