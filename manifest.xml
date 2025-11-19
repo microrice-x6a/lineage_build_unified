@@ -7,6 +7,6 @@
   <project name="phhusson/vendor_vndk-tests" path="vendor/vndk-tests" remote="github" revision="master" />
   <project name="phhusson/vendor_interfaces" path="vendor/interfaces" remote="github" revision="pie" />
   <project name="phhusson/vendor_magisk" path="vendor/magisk" remote="github" revision="master" />
-  <project name="AndyCGYan/treble_patches" path="treble_patches" remote="github" revision="lineage-16.0" />
+  <project name="microrice-x6a/lineage_patches_unified" path="treble_patches" remote="github" revision="lineage-16.0" />
   <project name="microrice-x6a/treble_experimentations" path="treble_experimentations" remote="github" revision="master" />
 </manifest>
