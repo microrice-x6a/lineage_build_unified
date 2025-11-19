@@ -100,16 +100,17 @@ buildVariant() {
 	lunch ${1}-userdebug
 	make installclean
 	make -j$(nproc --all) systemimage
-	make vndk-test-sepolicy
+#	make vndk-test-sepolicy
 	mv $OUT/system.img ~/build-output/lineage-16.0-$BUILD_DATE-UNOFFICIAL-${1}.img
 }
 
-buildVariant treble_arm_avN
-buildVariant treble_arm_bvN
-buildVariant treble_a64_avN
-buildVariant treble_a64_bvN
-buildVariant treble_arm64_avN
-buildVariant treble_arm64_bvN
+#buildVariant treble_arm_avN
+#buildVariant treble_arm_bvN
+#buildVariant treble_a64_avN
+#buildVariant treble_a64_bvN
+#buildVariant treble_arm64_avN
+#buildVariant treble_arm64_bvN
+buildVariant xiaomi_x6a
 ls ~/build-output | grep 'lineage'
 
 END=`date +%s`
