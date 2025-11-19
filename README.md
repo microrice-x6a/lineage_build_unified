@@ -3,10 +3,6 @@
 
 To get started with building LineageOS GSI, you'll need to get familiar with [Git and Repo](https://source.android.com/source/using-repo.html) as well as [How to build a GSI](https://github.com/phhusson/treble_experimentations/wiki/How-to-build-a-GSI%3F).
 
-First, open a new Terminal window, which defaults to your home directory.  Clone the modified treble_experimentations repo there:
-
-    git clone https://github.com/AndyCGYan/treble_experimentations
-
 Create a new working directory for your LineageOS build and navigate to it:
 
     mkdir lineage-16.x-build-gsi; cd lineage-16.x-build-gsi
